@@ -5,7 +5,7 @@ int main(){
 	//solution for problem #1
 	//int nums[5] = {5, 1, 3, 9, 2};
 	//sum to find: 10
-	//output: 9 and 1;
+	//output: nums[1] and nums[4] aka 1 and 9;
 	
 	int target, size;
 	int n1, n2, sum, pos1, pos2;
