@@ -1,0 +1,8 @@
+No.  Name                     Price          Quantity       Total Price
+1    Apple Juice Sachet       50.00          1              50.00          
+2    Whole Orange             35.00          1              35.00          
+3    Dried Mango Pack         20.00          3              60.00          
+4    Pancit Canton (Spcy)     15.00          4              60.00          
+5    Pancit Canton (Nrm)      14.50          56             812.00         
+6    Safeguard (L)            35.50          6              213.00         
+7    Safeguard (M)            20.25          7              141.75         

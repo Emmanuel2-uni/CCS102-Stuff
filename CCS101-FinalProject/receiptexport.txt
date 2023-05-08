@@ -1,0 +1,22 @@
+6
+Apple
+50.00
+1
+Whole   
+35.00
+1
+Mango 
+20.00
+3
+Pancit Canton
+15.00
+4
+Noodles
+14.50
+56
+Safeguard    
+35.50
+6
+Shampoo    
+20.25
+7

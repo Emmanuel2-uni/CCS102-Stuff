@@ -1,0 +1,7 @@
+1st line: write number of items then subtract 1.
+2nd line: write 'Start' in exact case.
+3rd Line: Write name of item 1
+4th Line: Write price of item 1
+5th Line: Write name of item 2.
+6th Line: Write price of item 2.
+Repeat the pattern until finished. Name of item should be readable in 20 characters.
