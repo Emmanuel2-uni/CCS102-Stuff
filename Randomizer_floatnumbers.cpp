@@ -11,6 +11,7 @@ int main(){
 			std::random_device rd;
 			std::mt19937 rand(rd());
 			std::uniform_real_distribution<float> stock(-1, 1); //for uniform distribution.
+			//reference: https://en.cppreference.com/w/cpp/numeric/random
 			
 			
 			do{
