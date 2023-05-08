@@ -9,8 +9,7 @@ int main(){
 		std::string btn;
 		
 			std::random_device rd;
-			//std::default_random_engine rand(rd()); //opinion: not "random" enough.
-			std::mt19937 rand(rd()); //opinion: decently "random".
+			std::mt19937 rand(rd());
 			std::uniform_real_distribution<float> stock(-1, 1); //for uniform distribution.
 			
 			
