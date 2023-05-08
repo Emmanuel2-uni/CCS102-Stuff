@@ -198,7 +198,8 @@ void _randomizeAndPick5(){
 			//std::default_random_engine rand(rd()); //opinion: not "random" enough.
 			std::mt19937 rand(rd()); //opinion: decently "random".
 			std::uniform_int_distribution<> pick_five(0, tempNames_vector.size()-1); //for uniform distribution.
-			
+			//reference: https://en.cppreference.com/w/cpp/numeric/random
+	
 			for(int i=0; i<5; i++){
 				tempWinners_vector.push_back(tempNames_vector[pick_five(rand)]);
 				std::cout << "Draw " << i+1 << ": " << tempWinners_vector[i] << std::endl;
