@@ -36,7 +36,7 @@ int randomize_number(){
 		
 		std::mt19937 rand(rd()); //opinion: decently "random". This declares/makes a new "seed" on runtime with the name "rand" based on the random device on runtime
 		
-		std::uniform_int_distribution<int> random_number(10000, 99999); //for uniform distribution of the results.
+		std::uniform_int_distribution<int> random_number(1000, 9999); //for uniform distribution of the results.
 			// declare uniform_real_distribution if you want something for float
 			// just to make sure, inside the angle brackets <>, declare the data type you want
 		
