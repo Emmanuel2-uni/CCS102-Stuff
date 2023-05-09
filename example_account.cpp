@@ -5,7 +5,7 @@
 #include <fstream>
 //If you use namespace std; just remove all of the std:: calls prior to specific code.
 // This is ONE approach (out of many) on how to do the sign-up + log-in system.
-// We will be using an array, for those not familiar with vectors or C++12 arrays
+// You can use arrays for update, delete and search, for those not familiar with vectors or C++ arrays
 // It will be up to you if you want to use functions.
 
 
