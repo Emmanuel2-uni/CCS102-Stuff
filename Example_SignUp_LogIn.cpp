@@ -68,6 +68,11 @@ int main(){
 			std::cin.ignore();
 			
 			readFile.open("users.txt", std::ios::in);
+			if(!readFile.is_open()){
+				std::cout << "\nNo Existing file found, please sign up first.\n";
+				readFile.close();
+				break;
+			}
 			std::cout << "Input username: ";
 			getline(std::cin, input_user);
 			
