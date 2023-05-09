@@ -1,4 +1,7 @@
 # 
+!!!!   If you use ::: using namespace std; ::: in your code, just remove all the "std::" that you see in my code.   !!!!
+
+
 These are extra c++ stuff that I made during the Second Semester of A.Y 2022-2023, including the final project I made for the previous semester.
 
 Most of these are made during my free time.
