@@ -24,7 +24,9 @@ struct employee{
 		employee_name(name),
 		employee_position(position),
 		employee_salary(salary)
-	{}
+	{
+		std::cout << "\n employee vector/index is being constructed/built using set parameters.\n\n";
+	}
 	//These declarations allow the constructor to "construct" the object as this can be seen as a *function* inside the struct/class.
 	// With the current parameters: name, position, and salary -- whenever we use a proper STL function like emplace_back, we can update all of the parameters
 	// simultaneously without having to use backups or additional overhead/declarations.
