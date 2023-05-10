@@ -59,6 +59,7 @@ int main(){
 			writeFile << input_user << std::endl;
 			writeFile << input_pass << std::endl;
 			
+			writeFile.close();
 			std::cout << "User registered!";
 			system("PAUSE");
 			break;
