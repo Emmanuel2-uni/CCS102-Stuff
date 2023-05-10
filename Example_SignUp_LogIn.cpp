@@ -88,6 +88,8 @@ int main(){
 					getline(readFile, read_pass);
 					if(read_user==input_user && input_pass==read_pass){
 						std::cout << "User found!" << std::endl;
+						signup_run=false;
+						login_run=true;
 						user_found=true;
 						break;
 					}
@@ -100,8 +102,6 @@ int main(){
 			
 			system("PAUSE");
 			readFile.close();
-			signup_run=false;
-			login_run=true;
 			break;
 		}
 		
