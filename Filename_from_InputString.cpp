@@ -14,5 +14,9 @@ int main(){
 	
 	std::ofstream write_text;
 	write_text.open(filename.c_str());
+	
+	//alternatively, and is way easier:
+	// write_text.open(filename);
+	
 	write_text.close();
 }
